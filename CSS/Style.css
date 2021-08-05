@@ -462,8 +462,8 @@ header .icons .icon .dot {
     padding: 15px 10px 20px 20px;
 }
 
-.clear {
-    height: 653px;
+#clear {
+    height: 582px;
 }
 
 @media (max-width: 1200px) {
@@ -1117,6 +1117,7 @@ header .icons .icon .dot {
 .testimonials .testi-cont .clients .client-info {
     margin: 0 40px;
     opacity: 0.3;
+    flex: 0 0 15%;
     cursor: pointer;
     transition: 0.35s;
 }

@@ -3,15 +3,18 @@ window.addEventListener('scroll', stickyNavbar);
 
 var navbar = document.getElementById("navbar"),
     navList = document.querySelector(".nav-list"),
+    clearElem = document.getElementById("clear"),
     sticky = navbar.offsetTop;
 
 function stickyNavbar() {
     if (window.pageYOffset >= sticky) {
         navbar.classList.add("sticky");
         navList.style.border = "none";
+        clearElem.style.height = "653px"
     } else {
         navbar.classList.remove("sticky");
         navList.style.border = "";
+        clearElem.style.height = "582px"
     }
 };
 
